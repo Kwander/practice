@@ -1,0 +1,99 @@
+﻿body {
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #AE4949;
+}
+
+
+.Titlehead {
+    display: inline-block;
+    justify-content:left;
+    flex-wrap:wrap;
+    flex-direction:column;
+}
+.imgar{
+    border: 8px groove red;
+    margin: 0px 17px 0px 17px;
+    border-radius:20px;
+}
+.Titlehead h1 {
+    font-size: 110px;
+    font-family: '18thCentury';
+    color: orangered;
+    margin: -0px 0px 0px 0px;
+}
+
+.Titlehead p{
+    font-family: '18thCentury';
+    font-size: 50px;
+    color:lightblue;
+    display:inline;
+    margin-bottom: 300px;
+}
+
+
+.stage{
+    height:40px;
+    width:100%;
+    overflow: hidden;
+}
+.slide-wrapper{
+    width:400%;
+    height:100%;
+    animation: slideshow 50s infinite;
+}
+.slide{
+    width:25%;
+    height:100%;
+    float:left;
+    text-align: center;
+    font-size:30px;
+    background-color:lightcoral;
+}
+
+@keyframes slideshow{
+    0% {margin-left: 0%}
+    25% {margin-left: -100%}
+    50% {margin-left: -200%}
+    75% {margin-left: -300%}
+    100% {margin-left: -400%}  
+}
+
+.hot {
+    display: flex;
+    flex-direction: row;
+}
+.hottextbox {
+    display: flex;
+    border: 7px solid orange;
+    border-radius: 10px;
+    font-size: 40px;
+    background: rgba(216, 228, 127, .2);
+    font-family: 'sans-serif';
+}
+.hottextbox p{
+    margin: 30px 40px 0px 40px;
+}
+.flexcontainer {
+    margin: 40px 40px 40px 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+
+
+.nextsec{
+    display:flex;
+}
+
+.left {
+    left: 5%;
+    border: 5px dotted red;
+    background-image: url("images/hotfood.png");
+    width: 100%;
+    justify-content:left;
+}
+.right {
+    justify-content:left;
+}
